@@ -1,0 +1,71 @@
+{
+  "approved_version": 2,
+  "versions": [
+    {
+      "version": 1,
+      "file": "model_v1.joblib",
+      "trained_at": "2026-11-19T23:32:27",
+      "algorithm": "RandomForestClassifier",
+      "params": {
+        "n_estimators": 200,
+        "max_depth": 12,
+        "class_weight": "balanced_subsample",
+        "random_state": 42
+      },
+      "metrics": {
+        "accuracy": 0.9825,
+        "precision": 0.8235294117647058,
+        "recall": 0.6176470588235294,
+        "f1": 0.7058823529411765
+      },
+      "mlflow_run_id": "86ad38bbdc354d15a4446c506581a863",
+      "data_source": "AI4I 2020 (UCI)",
+      "status": "archived",
+      "decision": "Promoted: no approved model existed."
+    },
+    {
+      "version": 2,
+      "file": "model_v2.joblib",
+      "trained_at": "2026-11-19T23:34:40",
+      "algorithm": "RandomForestClassifier",
+      "params": {
+        "n_estimators": 200,
+        "max_depth": 12,
+        "class_weight": "balanced_subsample",
+        "random_state": 42
+      },
+      "metrics": {
+        "accuracy": 0.9825,
+        "precision": 0.8235294117647058,
+        "recall": 0.6176470588235294,
+        "f1": 0.7058823529411765
+      },
+      "mlflow_run_id": "99b1a7a05ea44e68a5dcda7b7b2ad5a5",
+      "data_source": "AI4I 2020 (UCI)",
+      "status": "approved",
+      "decision": "Promoted: F1 0.706 >= approved 0.706."
+    },
+    {
+      "version": 3,
+      "file": "model_v3.joblib",
+      "trained_at": "2026-11-20T00:22:10",
+      "algorithm": "RandomForestClassifier",
+      "params": {
+        "n_estimators": 250,
+        "max_depth": 12,
+        "class_weight": "balanced_subsample",
+        "random_state": 42
+      },
+      "metrics": {
+        "accuracy": 0.982,
+        "precision": 0.8076923076923077,
+        "recall": 0.6176470588235294,
+        "f1": 0.7
+      },
+      "mlflow_run_id": "8f6eca8eb7f340f7b35dbd6dc8b5f039",
+      "data_source": "AI4I 2020 (UCI)",
+      "status": "candidate",
+      "decision": "Retained existing: candidate F1 0.700 < approved 0.706."
+    }
+  ]
+}
